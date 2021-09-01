@@ -39,7 +39,7 @@ class Board {
     }
 
     isEmpty() {
-        return this.state.every(cell => !cell.trim());
+        return this.state.every(cell => !cell.trim())
     }
 
     isFull() {
